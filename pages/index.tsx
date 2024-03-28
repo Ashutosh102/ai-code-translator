@@ -21,8 +21,8 @@ export default function Home() {
     const maxCodeLength = model === 'gpt-3.5-turbo' ? 6000 : 12000;
 
     if (!apiKey) {
-      alert('Please enter an API key.');
-      return;
+      alert('Please enter an API key if you wanna use GPT 4, otherwise ignore it.');
+      
     }
 
     if (inputLanguage === outputLanguage) {
